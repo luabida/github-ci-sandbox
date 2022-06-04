@@ -4,3 +4,8 @@ services:
     image: nginx:1.21
     ports:
     - "80:80"
+  
+  nginx_dois:
+    image: nginx:1.21
+    ports:
+    - "80:80"
