@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Running bash scripts
+      - name: Running django sample server inside container
 
         run: |
-          docker-compose up
+          docker-compose -f django/compose.yaml up 

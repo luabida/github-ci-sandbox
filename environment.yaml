@@ -1,3 +1,4 @@
+name: ci_sdbox
 channels:
   - conda-forge
 dependencies:
